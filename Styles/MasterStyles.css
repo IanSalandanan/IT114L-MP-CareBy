@@ -1,0 +1,111 @@
+﻿body {
+    margin: 32px;
+    padding: 0px;
+    font-family: Cinzel;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    background: rgb(230,230,200);
+    background: linear-gradient(180deg, rgba(230,230,200,1) 26%, rgba(154,155,224,1) 70%, rgba(110,94,255,1) 92%);
+}
+
+#home-nav-container {
+    justify-content: center;
+    display: flex;
+    background: #FFF3E1;
+    justify-content: space-between;
+    height: 18vh;
+    border-bottom: solid 1px #808080;
+}
+
+#site-logo-container {
+    display: flex;
+    margin-left: 20px;
+}
+
+#site-logo-container #logo {
+    width: 70px;
+    height: 70px;
+    padding: 20px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 50px;
+    padding: 20px;
+    margin-top: 12px;
+
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+#slogan-line {
+    justify-content: flex-start;
+    color: #808080;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    margin-top: 85px;
+    padding: 10px;
+}
+
+#home-nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+#home-nav ul {
+    list-style-type: none;
+    padding: 20px;
+    margin-top: 1rem;
+}
+
+#page-links li {
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+a {
+    font-size: 26px;
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+    font-weight: 480;
+}
+
+footer {
+    align-content: flex-end;
+    display: flex;
+    background: #3C638A;
+    height: 30vh;
+}
+
+#welcome-page {
+    display: flex;
+    background: #FFF3E1;
+    padding: 40px;
+}
+
+h1 {
+    color: #000;
+    font-family: Cinzel;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#page-img{
+    width: 600px;
+    height: 600px;
+    padding: 20PX;
+}
+
+

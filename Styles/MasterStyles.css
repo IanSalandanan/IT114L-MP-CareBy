@@ -3,8 +3,11 @@
     padding: 0px;
     font-family: Cinzel;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
-    background: rgb(230,230,200);
-    background: linear-gradient(180deg, rgba(230,230,200,1) 26%, rgba(154,155,224,1) 70%, rgba(110,94,255,1) 92%);
+    background: rgb(208,189,206);
+    background: linear-gradient(0deg, rgba(208,189,206,1) 26%, rgba(235,213,187,1) 58%, rgba(167,213,228,1) 92%);
+    &::-webkit-scrollbar {
+                             display: none;
+                         }
 }
 
 #home-nav-container {
@@ -42,13 +45,17 @@
 #slogan-line {
     justify-content: flex-start;
     color: #808080;
-    font-size: 25px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     position: absolute;
     margin-top: 85px;
-    padding: 10px;
+
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 8px;
 }
 
 #home-nav {
@@ -80,32 +87,15 @@ a {
     font-weight: 480;
 }
 
-footer {
-    align-content: flex-end;
+
+#footer {
     display: flex;
-    background: #3C638A;
-    height: 30vh;
+    padding: 30px;
+    justify-content: center;
+    background-color: #3C638A;
 }
 
-#welcome-page {
-    display: flex;
-    background: #FFF3E1;
-    padding: 40px;
+#foot-text {
+    padding: 20px;
+    color: #FFF3E1;
 }
-
-h1 {
-    color: #000;
-    font-family: Cinzel;
-    font-size: 70px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-#page-img{
-    width: 600px;
-    height: 600px;
-    padding: 20PX;
-}
-
-

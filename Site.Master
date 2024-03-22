@@ -12,6 +12,7 @@
     </asp:PlaceHolder>
 
     <link rel="stylesheet" href="/Styles/MasterStyles.css" />
+    <link rel="stylesheet" href="/Styles/WelcomePageStyles.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,10 +33,10 @@
 
         <nav id="home-nav">
             <ul id="page-links">
-                <li><a href="javascript:void(0)">HOME</a></li>
-                <li><a href="javascript:void(0)">ABOUT US</a></li>
-                <li><a href="javascript:void(0)">PROFILE</a></li>
-                <li><a href="javascript:void(0)">CONTACT US</a></li>
+                <li><a>HOME</a></li>
+                <li><a>ABOUT US</a></li>
+                <li><a>PROFILE</a></li>
+                <li><a>CONTACT US</a></li>
             </ul>
         </nav>
 
@@ -49,7 +50,7 @@
     </form>
 
     <footer id="footer" runat="server">
-        <h3>Ye bwoi</h3>
+        <h3 id="foot-text"> &copy; CareBy. All Rights Reserved. 2024</h3>
     </footer>
 
 </body>

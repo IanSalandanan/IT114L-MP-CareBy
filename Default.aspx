@@ -7,12 +7,19 @@
         <div id="welcome-title-container">
             <h1 id="welcome-title">MAKE YOUR MENTAL HEALTH A PRIORITY</h1>
             <p id="welcome-statement">You don’t have to struggle in silence</p>
+            <asp:Button ID="startbutton" runat="server" Text="Join us now"> </asp:Button>
         </div>
 
         <div id="page-image-container">
               <img id="page-img" src="vector.png" alt="page-img"/>
         </div>
 
+    </div>
+
+    <div id="about-page">
+        <div id="about-page-title">
+            <p>YOLO</p>
+        </div>
     </div>
 
 </asp:Content>

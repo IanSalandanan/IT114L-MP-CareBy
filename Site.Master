@@ -35,7 +35,6 @@
             <ul id="page-links">
                 <li><a>HOME</a></li>
                 <li><a>ABOUT US</a></li>
-                <li><a>PROFILE</a></li>
                 <li><a>CONTACT US</a></li>
             </ul>
         </nav>
@@ -50,7 +49,8 @@
     </form>
 
     <footer id="footer" runat="server">
-        <h3 id="foot-text"> &copy; CareBy. All Rights Reserved. 2024</h3>
+        <h3 class="foot-text">CAREBY IS NOT FOR EMERGENCY SITUATIONS For emergencies, please call an ambulance (Lifeline 16-911) or a hospital's emergency room unit. (We suggest The Medical City ER +63 (2) 86356789 or the Philippine General Hospital +63 (2) 85235350.)</h3>
+        <h3 class="foot-text"> &copy; CareBy. All Rights Reserved. 2024</h3>
     </footer>
 
 </body>

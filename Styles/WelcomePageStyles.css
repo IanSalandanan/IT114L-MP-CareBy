@@ -1,4 +1,8 @@
-﻿#welcome-page {
+﻿#bodycontent {
+   display: flex;
+}
+
+#welcome-page {
     display: flex;
     background: #FFF3E1;
     padding: 40px;
@@ -17,4 +21,20 @@ h1 {
     width: 600px;
     height: 600px;
     padding: 20PX;
+}
+
+#welcome-statement {
+    font-size: 20px;
+}
+
+#startbutton {
+    position: absolute;
+    margin-top: 50px;
+    border-radius: 20px;
+    color: #3C638A;
+}
+
+#about-page {
+    background-color: #FFF3E1;
+    height: 40vh;
 }

@@ -22,4 +22,23 @@
         </div>
     </div>
 
+    <div id="login-signup-page">
+        <div id="login-box">
+            <div id="login-box">
+                <div id="login-box-form">
+                    <h2>Log In</h2>
+                    <input id="username-log" type="text" placeholder="Username" required />
+                    <input id="password-log" type="password" placeholder="Password" required />
+                    <button id="login-button" type="sumbit" onclick="logIn()">Login</button>
+                </div>
+            <div id="login-box-form">
+                <hr /> <span></span> <p>Don't have an account?</p>
+            </div>
+                <div id="login-box-form">
+                    <button type="button" id="signup-btn" linkhref="./About.aspx">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </asp:Content>

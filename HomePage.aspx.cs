@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace IT114L_MP_CareBy
 {
-    public partial class LogIn : System.Web.UI.Page
+    public partial class HomePage : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

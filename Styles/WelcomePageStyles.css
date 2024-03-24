@@ -2,6 +2,8 @@
     display: flex;
     background: #FFF3E1;
     padding: 40px;
+    scroll-behavior:smooth;
+    justify-content: space-between;
 }
 
 h1 {
@@ -9,36 +11,60 @@ h1 {
     font-family: Cinzel;
     font-size: 65px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 450;
     line-height: normal;
+    word-break: break-all;
 }
 
-#page-img {
+#welcome-title-container {
+    margin-left: 25px;
+    width: 689px;
+}
+
+#page-art {
     width: 600px;
     height: 600px;
     padding: 20PX;
 }
 
-#welcome-statement {
-    font-size: 20px;
+#page-art2 {
+    position: absolute;
+    left: 10px;
 }
 
-#startbutton {
-    position: absolute;
+#welcome-statement {
+    margin-top: 30px;
+    font-size: 28px;
+    text-align: center;
+}
+
+startBtn-container {
+    display:flex;
+}
+
+.startBtn {
     margin-top: 50px;
-    border-radius: 20px;
-    color: #3C638A;
+    margin-left: 60px;
+    background-color: #3C638A;
+    color: #FFF3E1;
+    font-family: Cinzel;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px;
 }
 
 #about-page {
     display:flex;
     background-color: #FFF3E1;
-    height: 65vh;
+    height: 70vh;
     justify-content:center;
+    text-align:center;
+    padding: 40px;
 }
 
-#about-page h2{
-    background:white;
+#about-page h1 {
+    background: #FFF3E1;
 }
 
 #about-txt {
@@ -47,25 +73,22 @@ h1 {
 
 #about-container {
     display: flex;
-    padding: 50px 20%;
     width: 400px;
     text-align: center;
-    flex-wrap: wrap;
     background: transparent;
     border-radius: 30px;
-    border: 1px solid #999;
     justify-content: center;
     margin: 20px 50px;
 }
 
 #login-signup-page {
-    display:flex;
-    background-color: transparent;
-    height: 65vh;
+    display: flex;
+    background-color: #FFF3E1;
+    height: 70vh;
+    padding: 40px;
 }
 
 #login-container {
-    display: none;
     padding: 50px 10%;
     width: 300px;
     text-align: center;
@@ -125,11 +148,12 @@ h1 {
 }
 
 #register-container {
-    display: block;
     padding: 50px 10%;
     width: 300px;
     text-align: center;
-    margin-left:30%;
+    margin-left:31%;
+    margin-bottom: 20%;
+
 }
 
 #regis-btnx {
@@ -143,5 +167,10 @@ h1 {
     background: transparent;
     border: 1px solid #999;
     font-weight: 500;
+    cursor: pointer;
+}
+
+#hatdog:hover, #hatdogx:hover {
+    text-decoration: underline;
     cursor: pointer;
 }

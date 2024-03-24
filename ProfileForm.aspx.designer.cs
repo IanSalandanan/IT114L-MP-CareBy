@@ -11,7 +11,7 @@ namespace IT114L_MP_CareBy
 {
 
 
-    public partial class ProfilePage
+    public partial class ProfileForm
     {
 
         /// <summary>

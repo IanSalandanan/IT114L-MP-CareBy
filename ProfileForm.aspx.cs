@@ -7,14 +7,9 @@ using System.Web.UI.WebControls;
 
 namespace IT114L_MP_CareBy
 {
-    public partial class ProfilePage : System.Web.UI.Page
+    public partial class ProfileForm : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void submitBtn_Click(object sender, EventArgs e)
         {
 
         }

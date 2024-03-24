@@ -21,7 +21,7 @@ namespace IT114L_MP_CareBy
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button startbutton;
+        protected global::System.Web.UI.WebControls.LinkButton startbutton;
 
         /// <summary>
         /// userlogemail control.

@@ -1,10 +1,14 @@
 ﻿#form-container {
     display: flex;
+    justify-content: space-between;
+    background: #FFF3E1;
 }
 
 #fillUp-container {
-    background: #FFF3E1;
     padding: 20px;
+    margin-left: 150px;
+    margin-bottom: 150px;
+    margin-top: 100px;
 }
 
 .form-column {
@@ -26,11 +30,21 @@
     height: 3vh;
 }
 
-page-img {
-    width: 400px;
-    height: 400px;
-    border-radius: 100px;
+#page-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    align-content: center;
 }
+
+#dp-container {
+    display: flex;
+    margin-right: 150px;
+    margin-bottom: 150px;
+    margin-top: 100px;
+}
+
+
 
 
 

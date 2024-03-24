@@ -84,7 +84,7 @@
     cursor: pointer;
 }
 
-a {
+#page-links .nav-links {
     font-size: 26px;
     text-decoration: none;
     color: black;

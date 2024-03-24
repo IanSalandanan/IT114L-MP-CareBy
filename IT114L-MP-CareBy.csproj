@@ -125,7 +125,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="HomePage.aspx" />
-    <Content Include="ProfilePage.aspx" />
+    <Content Include="ProfileForm.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -186,6 +186,7 @@
     <Content Include="Styles\MasterStyles.css" />
     <Content Include="Styles\ProfileFormStyles.css" />
     <Content Include="Styles\WelcomePageStyles.css" />
+    <Content Include="TherapistPage.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -225,12 +226,12 @@
     <Compile Include="HomePage.aspx.designer.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ProfilePage.aspx.cs">
-      <DependentUpon>ProfilePage.aspx</DependentUpon>
+    <Compile Include="ProfileForm.aspx.cs">
+      <DependentUpon>ProfileForm.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ProfilePage.aspx.designer.cs">
-      <DependentUpon>ProfilePage.aspx</DependentUpon>
+    <Compile Include="ProfileForm.aspx.designer.cs">
+      <DependentUpon>ProfileForm.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
@@ -246,6 +247,13 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="TherapistPage.aspx.cs">
+      <DependentUpon>TherapistPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TherapistPage.aspx.designer.cs">
+      <DependentUpon>TherapistPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>

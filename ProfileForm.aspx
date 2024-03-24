@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ProfilePage.aspx.cs" Inherits="IT114L_MP_CareBy.ProfilePage" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ProfileForm.aspx.cs" Inherits="IT114L_MP_CareBy.ProfileForm" %>
 
 <asp:Content ID="ProfileForm" ContentPlaceHolderID="MainContent" runat="server">
 
@@ -6,31 +6,31 @@
          <div id="fillUp-container">
              <form id="fillUpForm" cssclass="form-column">
 
-                 <h3> General Info </h3>
+                 <h3>General Info </h3>
 
                  <asp:Label class="Label" runat="server" Text="Email"></asp:Label>
-                 <br/>
-                 <asp:TextBox class="txtbox" ID="email" runat="server" ></asp:TextBox>
-                 </br>
+                 <br />
+                 <asp:TextBox class="txtbox" ID="email" runat="server"></asp:TextBox>
+                 <br />
 
                  <asp:Label class="Label" runat="server" Text="Full Name"></asp:Label>
-                 <br/>
+                 <br />
                  <asp:TextBox class="nametxtbox" ID="fname" runat="server" Placeholder="First Name"></asp:TextBox>
                  <asp:TextBox class="nametxtbox" ID="lname" runat="server" Placeholder="Last Name"></asp:TextBox>
-                 </br>
+                 <br />
 
                  <asp:Label class="Label" runat="server" Text="Gender"></asp:Label>
-                 <br/>
-                 <asp:TextBox class="txtbox" ID="gender" runat="server" ></asp:TextBox>
-                 </br>
+                 <br />
+                 <asp:TextBox class="txtbox" ID="gender" runat="server"></asp:TextBox>
+                 <br />
 
 
                  <asp:Label class="Label" runat="server" Text="Age"></asp:Label>
-                 <br/>
-                 <asp:TextBox class="txtbox" ID="bday" runat="server" ></asp:TextBox>
-                 </br>
+                 <br />
+                 <asp:TextBox class="txtbox" ID="bday" runat="server"></asp:TextBox>
+                 <br />
 
-                 <asp:Button ID="submitBtn" runat="server" Text="Submit" cssclass="submitBtn" OnClick="submitBtn_Click"/>
+                 <asp:Button ID="submitBtn" runat="server" Text="Edit" CssClass="submitBtn"/>
 
              </form>
          </div>

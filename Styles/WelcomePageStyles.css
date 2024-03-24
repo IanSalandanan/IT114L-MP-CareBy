@@ -1,8 +1,4 @@
-﻿#bodycontent {
-   display: flex;
-}
-
-#welcome-page {
+﻿#welcome-page {
     display: flex;
     background: #FFF3E1;
     padding: 40px;

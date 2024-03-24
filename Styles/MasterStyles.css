@@ -5,18 +5,22 @@
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
     background: rgb(208,189,206);
     background: linear-gradient(0deg, rgba(208,189,206,1) 26%, rgba(235,213,187,1) 58%, rgba(167,213,228,1) 92%);
-    &::-webkit-scrollbar {
-                             display: none;
-                         }
+    &::-webkit-scrollbar
+                        {
+                            display: none;
+                        }
 }
 
 #home-nav-container {
+    position: sticky;
+    top: 0px;
     justify-content: center;
     display: flex;
     background: #FFF3E1;
     justify-content: space-between;
     height: 18vh;
     border-bottom: solid 1px #808080;
+    width: 100%;
 }
 
 #site-logo-container {
@@ -77,6 +81,7 @@
     text-decoration: none;
     border-radius: 50px;
     margin: 10px;
+    cursor: pointer;
 }
 
 a {
@@ -87,15 +92,17 @@ a {
     font-weight: 480;
 }
 
-
 #footer {
     display: flex;
     padding: 30px;
     justify-content: center;
     background-color: #3C638A;
+    flex-direction: column;
+    text-align:center;
 }
 
-#foot-text {
+.foot-text {
+    word-wrap: break-word;
     padding: 20px;
     color: #FFF3E1;
 }

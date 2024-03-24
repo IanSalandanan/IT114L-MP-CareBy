@@ -1,51 +1,14 @@
-﻿<%@ Page Title="About" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="LogIn.aspx.cs" Inherits="IT114L_MP_CareBy.LogIn" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="LogIn.aspx.cs" Inherits="IT114L_MP_CareBy.LogIn" %>
 
+<!DOCTYPE html>
 
-<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">|
-    <style>
-        #login-box {
-            display: block;
-            padding: 50px 33%;
-            width: 550px;
-            transform: scale(1);
-            transition: transform 0.5s ease;
-            text-align: center;
-        }
-
-        #login-box input {
-            width: 100%;
-            background: transparent;
-            border: 1px solid #000;
-            outline: 0;
-            padding: 15px 10px;
-            border-radius: 4px;
-            margin: 10px 0;
-        }
-
-        #login-box button {
-            width: 100%;
-            padding: 10px 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 20px 0;
-            border-radius: 30px;
-            background: transparent;
-            border: 1px solid #999;
-            font-weight: 500;
-            cursor: pointer;
-        }
-
-    </style>
-
-    <main aria-labelledby="title">
-        <head>
-            <title>Welcome to Careby</title>
-            <link rel="stylesheet" href="LogInPageStyles.css">
-        </head>
-            <body>
-                <form id="form1">
-                    <div>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
                         <form id="login-box">
                             <div id="login-box">
                                 <div id="login-box-form">
@@ -62,8 +25,7 @@
                                 </div>
                             </div>
                         </form>
-                    </div>
-                </form>
-            </body>
-    </main>
-</asp:Content>
+        </div>
+    </form>
+</body>
+</html>

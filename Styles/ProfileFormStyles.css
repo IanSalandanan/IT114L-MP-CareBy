@@ -1,0 +1,36 @@
+﻿#form-container {
+    display: flex;
+}
+
+#fillUp-container {
+    background: #FFF3E1;
+    padding: 20px;
+}
+
+.form-column {
+    display:flex;
+    flex-direction: column;
+}
+
+.txtbox {
+    width: 600px;
+    height: 3vh;
+}
+
+.submitBtn {
+    margin-top: 10px;
+}
+
+.nametxtbox {
+    width: 294px;
+    height: 3vh;
+}
+
+page-img {
+    width: 400px;
+    height: 400px;
+    border-radius: 100px;
+}
+
+
+

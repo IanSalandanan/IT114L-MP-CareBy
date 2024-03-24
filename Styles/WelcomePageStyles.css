@@ -31,44 +31,117 @@ h1 {
 }
 
 #about-page {
-    display: flex;
+    display:flex;
     background-color: #FFF3E1;
     height: 65vh;
+    justify-content:center;
+}
+
+#about-page h2{
+    background:white;
+}
+
+#about-txt {
+    display:flex;
+}
+
+#about-container {
+    display: flex;
+    padding: 50px 20%;
+    width: 400px;
+    text-align: center;
+    flex-wrap: wrap;
+    background: transparent;
+    border-radius: 30px;
+    border: 1px solid #999;
+    justify-content: center;
+    margin: 20px 50px;
 }
 
 #login-signup-page {
-    display: flex;
-    background-color: #FFF3E1;
+    display:flex;
+    background-color: transparent;
     height: 65vh;
 }
 
-#login-box {
-    display: block;
-    padding: 50px 25%;
-    width: 550px;
+#login-container {
+    display: none;
+    padding: 50px 10%;
+    width: 300px;
     text-align: center;
+    margin-left:30%;
 }
 
-    #login-box input {
-        width: 100%;
-        background: transparent;
-        border: 1px solid #000;
-        outline: 0;
-        padding: 15px 10px;
-        border-radius: 4px;
-        margin: 10px 0;
-    }
+.input-field {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #000;
+    outline: 0;
+    padding: 15px 10px;
+    border-radius: 4px;
+    margin: 10px 0;
+}
 
-    #login-box button {
-        width: 100%;
-        padding: 10px 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 20px 0;
-        border-radius: 30px;
-        background: transparent;
-        border: 1px solid #999;
-        font-weight: 500;
-        cursor: pointer;
-    }
+#login-btn {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    border-radius: 30px;
+    background: transparent;
+    border: 1px solid #999;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#login-btnx {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    border-radius: 30px;
+    background: transparent;
+    border: 1px solid #999;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#signup-btn {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    border-radius: 30px;
+    background: transparent;
+    border: 1px solid #999;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#register-container {
+    display: block;
+    padding: 50px 10%;
+    width: 300px;
+    text-align: center;
+    margin-left:30%;
+}
+
+#regis-btnx {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    border-radius: 30px;
+    background: transparent;
+    border: 1px solid #999;
+    font-weight: 500;
+    cursor: pointer;
+}

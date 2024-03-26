@@ -21,34 +21,39 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
 </head>
 <body>
-        
-    <header id="home-nav-container">
-
-        <div id="site-logo-container">
-
-            <img id="logo" src="carebylogo.png" alt="site-logo" />
-            <h1 class="title">CareBy</h1>
-            <p id="slogan-line">Your mental health matters</p>
-
-        </div>
-
-        <nav id="home-nav">
-            <ul id="page-links">
-                <li><a class="nav-links">HOME</a></li>
-                <li><a class="nav-links">ABOUT US</a></li>
-                <li><a class="nav-links">CONTACT US</a></li>
-            </ul>
-        </nav>
-
-    </header>
+  
 
     <form id="form1" runat="server">
+
+        <header id="home-nav-container">
+
+            <div id="site-logo-container">
+
+                <img id="logo" src="carebylogo.png" alt="site-logo" />
+                <h1 class="title">CareBy</h1>
+                <p id="slogan-line">Your mental health matters</p>
+
+            </div>
+
+            <nav id="home-nav">
+                <asp:LinkButton class="navBtn" runat="server" Text="HOME" CssClass="navBtn" OnClick="homeClick"> </asp:LinkButton>
+                <asp:LinkButton class="navBtn"  runat="server" Text="ABOUT US" CssClass="navBtn" OnClick="aboutClick"> </asp:LinkButton>
+                <asp:LinkButton class="navBtn"  runat="server" Text="CONTACT US" CssClass="navBtn" OnClick="contactClick"> </asp:LinkButton>
+            </nav>
+
+        </header>
+
         <div>
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
         </div>
+
     </form>
 
     <footer id="footer" runat="server">

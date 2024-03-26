@@ -4,6 +4,12 @@
     padding: 40px;
     scroll-behavior:smooth;
     justify-content: space-between;
+
+}
+
+
+#home-nav-container {
+    z-index:1;
 }
 
 h1 {
@@ -29,7 +35,12 @@ h1 {
 
 #page-art2 {
     position: absolute;
-    left: 10px;
+    left: 0px;
+    margin-left: 80px;
+    margin-top: 80px;
+    right: 2px;
+    width: 350px;
+    height: 350px;
 }
 
 #welcome-statement {
@@ -52,6 +63,10 @@ startBtn-container {
     text-decoration: none;
     font-size: 18px;
     padding: 15px;
+}
+
+#about-page-title {
+    padding-top: 140px;
 }
 
 #about-page {
@@ -82,10 +97,10 @@ startBtn-container {
 }
 
 #login-signup-page {
+    padding: 140px 40px 40px 40px;
     display: flex;
     background-color: #FFF3E1;
     height: 70vh;
-    padding: 40px;
 }
 
 #login-container {

@@ -1,49 +1,64 @@
 ﻿#greet-container {
     display: flex;
-    text-align: left;
     background: #FFF3E1;
-    padding: 30px;
+    padding: 12px 30px 30px 30px;
     justify-content: space-between;
 }
 
-#welcome-title {
-    font-weight: 300;
+#greeting-img {
+    position: absolute;
+    transform: rotate(-5deg);
+    left: -62px;
+    top: -20px;
+    margin-left: 35px;
+
 }
 
 .profileBtn {
+    position: absolute;
+    right: 0px;
+    margin-right: 80px;
     background-color: #3C638A;
     color: #FFF3E1;
-    font-family: Cinzel;
-    border-radius: 10px;
+    font-family: Lato;
     text-decoration: none;
     font-size: 22px;
     padding: 12px 30px 0px 30px;
-    margin-right: 40px;
-    margin-top: 16px;
+    margin-top: 20px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 #user-details-container {
     display: flex;
     justify-content: space-between;
     background: #FFF3E1;
-    padding: 40px;
+    padding: 60px 40px 40px 40px;
 }
 
 #box-container {
     flex-direction: column;
-    margin-left: 40px;
+    margin-left: 140px;
 }
 
 #appointment-container {
     display: flex;
     flex-direction: column;
-    background: #FFE9F6;
     border-style: solid;
+    background: #FFE9F6;
     border-width: 2px;
     align-items: center;
     width: 600px;
     height: 45vh;
     border-radius: 15px;
+    border-left: 6px solid #1d1d1d;
+    border-bottom: 6px solid #1d1d1d;
+    font-family: lato;
 }
 
 .appmt-details-cancel-container {
@@ -53,65 +68,78 @@
 }
 
 .appmt_details_container {
-    margin-top: 20px;
+    margin-top: 60px;
     margin-right: 170px;
 }
 
 .setBtn {
-    width: 120px;
-    height: 40px;
-    margin-top: 20px;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 8px;
+    width: 160px;
+    height: 50px;
+    margin: 20px 0px 0px 7px;
+
+    background-color: #3C638A;
+    color: #FFF3E1;
+    font-family: Lato;
+    font-size: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 #page-img {
-    width: 450px;
-    height: 450px;
-    border-radius: 50%;
-    margin-right: 80px;
+    position: absolute;
+    width: 540px;
+    height: 540px;
+    right: 0px;
+    margin-right: 190px;
 }
 
 .cancelBtn {
     width: 80px;
     height: 40px;
+    border-width: 2px;
     border-style: solid;
     border-color: #3C638A;
     background-color: #FFF3E1;
     border-radius: 8px;
-    font-family: Cinzel;
+    font-family: Lato;
     color: #3C638A;
-    font-weight: 300;
-}
-
-.viewBtn {
-    width: 120px;
-    height: 60px;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 8px;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 .startBtn2 {
     width: 550px;
     height: 60px;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 8px;
     background-color: #3C638A;
     color: #FFF3E1;
     font-family: Cinzel;
     font-size: 22px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: Lato;
 }
 
 .start_appmt_btn_container {
-    margin-top: 55px;
+    margin-top: 8px;
 }
 
 .upcoming_appmt_title {
     font-size: 20px;
     font-weight: bold;
+    font-family: Lato;
+}
+
+.our-providers-container {
+    padding: 120px 40px 40px 40px;
 }
 
 .our-providers-title {
@@ -124,7 +152,7 @@
     width: 400px;
     border: 2px solid #3C638A;
     border-radius: 5px;
-    padding: 10px;
+    padding: 10px 20px 10px 10px;
     margin: 25px;
     align-items: center;
     justify-content: space-between;
@@ -132,6 +160,8 @@
 
 .two-providers {
     display: flex;
+    justify-content: space-between;
+    padding: 30px;
 }
 
 .all-providers-container {
@@ -175,25 +205,17 @@
 .provider-name-title {
     font-weight: bold;
     font-size: 20px;
+    font-family: Lato;
+}
+
+.provider-details {
+    margin-left: 10px;
 }
 
 .provider-role,
 .provider-info-desc {
     font-size: 13px;
-    margin-top: -20px;
-}
-
-.modal-content {
-    position: absolute;
-    width: 500px;
-    margin: auto;
-    padding: 25px;
-    border-radius: 10px;
-    background-color: #fff;
-    height: 80vh;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    font-family: Lato;
 }
 
 .provider-info-title {
@@ -207,107 +229,130 @@
     border-radius: 20px;
 }
 
-.see_profile_btn {
+.view_profile_btn {
     width: 150px;
     height: 40px;
     border-radius: 20px;
     align-self: auto;
-}
+    border: none;
 
-.book_appmt_btn {
-    width: 160px;
-    height: 50px;
-    border-radius: 30px;
-    align-self: auto;
-}
-
-.provider-details {
-    margin: 0 10px 0 10px;
-}
-
-.modal-provider-prof {
-    display: flex;
-    flex-direction: row;
-    width: 400px;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 25px;
-    align-items: center;
-}
-
-.modal-info {
-    margin-left: 95px;
-}
-
-.modal-close-btn {
-    width: 100%;
-    display: flex;
-    justify-content: end;
-}
-
-.btn-close {
+    background-color: #3C638A;
+    color: #FFF3E1;
+    font-family: Lato;
     cursor: pointer;
-    color: #e11b1b;
+    font-weight: bold;
 }
 
-.btn-close:hover {
-    color: #fff;
-    background-color: #e11b1b;
-}
+/* SET APPOINTMENT POPUP PANELS */
 
-.modal {
-    background-color: rgba(0,0,0, 0.5);
+#appointmentPopup, #appointmentPopup1, #appointmentPopup2 {
     position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    overflow: auto;
-}
-
-.modal_bk_appmt {
-    background-color: rgba(0,0,0, 0.5);
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    overflow: auto;
-}
-
-.modal_bk_appmt_content {
-    position: absolute;
-    width: 650px;
-    max-height: 70%;
-    padding: 25px;
-    border-radius: 10px;
-    background-color: #fff;
-    height: auto;
-    top: 50%;
     left: 50%;
+    top: 50%;
     transform: translate(-50%, -50%);
-    overflow-y: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.health_conc_textarea {
-    border-top: 2px solid black;
-    border-right: 2px solid black;
-    border-bottom: 2px solid black;
-    border-left: 2px solid black;
+#appointmentPopup {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    width: 550px;
+    height: 438px;
+    background: #F6F2E6;
+    border-radius: 10px;
+}
+
+#appointmentPopup .Popup-Title {
+    font-family: Lato;
+    margin: 20px;
+}
+
+#appointmentPopup .Popup-SubTitle {
+    font-family: Lato;
+    margin: 20px;
+}
+
+#appointmentPopup .txtDescription {
+    padding: 6px;
     resize: none;
+    background-color: #F4ECD3;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-style: none;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 0px rgba(0, 0, 0, 0.2);
+    &::-webkit-scrollbar
+            {
+            display: none;
+            }
 }
 
-.calendar_container {
-    width: 331px;
-    height: 336px;
+.dateLbl {
+    margin: 20px;
+    font-family: Lato;
 }
 
-.appointment_calendar {
-    color: #e11b1b;
+.txtDate {
+    width: 110px;
+    padding: 3px;
+    height: 20px;
+    margin: 2px 20px 20px 20px;
+    background-color: #F4ECD3;
+    border-radius: 6px;
+    border-width: 1px;
 }
 
-#SelectedDateLabel {
-    color: #007bff;
+.btnContainer {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    margin-right: 38px;
+    margin-bottom: 38px;
+}
+
+.btnContainer #btnCancel {
+    width: 72px;
+    height: 30px;
+    font-family: Lato;
+    font-weight: bold;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: #3C638A;
+    background-color: #FFF3E1;
+    border-radius: 8px;
+    color: #3C638A;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+ .btnContainer #btnNext {
+    width: 72px;
+    height: 30px;
+    font-family: Lato;
+    font-weight: bold;
+
+    background-color: #3C638A;
+    color: #FFF3E1;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.user-avatar {
+    margin: 10px 20px 10px 20px;
+}
+
+/* 2ND SET APPOINTMENT POPUP PANEL */
+
+#appointmentPopup1 {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    width: 550px;
+    height: 438px;
+    background: #F6F2E6;
+    border-radius: 10px;
 }

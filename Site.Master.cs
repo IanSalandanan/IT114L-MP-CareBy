@@ -11,6 +11,21 @@ namespace IT114L_MP_CareBy
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+           
+        }
+
+        protected void homeClick(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void aboutClick(object sender, EventArgs e)
+        {
+            ScriptManager.RegisterStartupScript(this, this.GetType(), "ScrollToLogin", "window.location.hash='#about-page'", true);
+        }
+
+        protected void contactClick(object sender, EventArgs e)
+        {
 
         }
     }

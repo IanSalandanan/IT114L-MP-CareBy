@@ -18,8 +18,6 @@
     position: absolute;
     right: 0px;
     margin-right: 80px;
-    background-color: #3C638A;
-    color: #FFF3E1;
     font-family: Lato;
     text-decoration: none;
     font-size: 22px;
@@ -28,10 +26,14 @@
 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 10px 20px;
-    border: none;
     border-radius: 4px;
     cursor: pointer;
     font-weight: bold;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #3C638A;
+    background-color: #FFF3E1;
+    color: #3C638A;
 }
 
 #user-details-container {
@@ -73,17 +75,16 @@
 }
 
 .setBtn {
-    width: 160px;
+    width: 180px;
     height: 50px;
     margin: 20px 0px 0px 7px;
 
     background-color: #3C638A;
     color: #FFF3E1;
     font-family: Lato;
-    font-size: 12px;
+    font-size: 14px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border: none;
-    padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
     font-weight: bold;
@@ -91,7 +92,6 @@
 
 #page-img {
     position: absolute;
-    width: 540px;
     height: 540px;
     right: 0px;
     margin-right: 190px;
@@ -129,7 +129,7 @@
 }
 
 .start_appmt_btn_container {
-    margin-top: 8px;
+    margin-top: 12px;
 }
 
 .upcoming_appmt_title {
@@ -144,6 +144,7 @@
 
 .our-providers-title {
     text-align: center;
+    font-family: Lato;
 }
 
 .provider-prof {
@@ -311,7 +312,7 @@
     margin-bottom: 38px;
 }
 
-.btnContainer #btnCancel {
+.secondary {
     width: 72px;
     height: 30px;
     font-family: Lato;
@@ -323,12 +324,11 @@
     background-color: #FFF3E1;
     border-radius: 8px;
     color: #3C638A;
-    font-size: 15px;
     border-radius: 4px;
     cursor: pointer;
 }
 
- .btnContainer #btnNext {
+.primary {
     width: 72px;
     height: 30px;
     font-family: Lato;
@@ -339,6 +339,25 @@
     border: none;
     border-radius: 4px;
     cursor: pointer;
+}
+
+.tertiary {
+    width: 72px;
+    height: 30px;
+    font-family: Lato;
+    font-weight: bold;
+
+    background-color: transparent;
+    border: none;
+    color: #3C638A;
+    font-size: 15px;
+    cursor: pointer;
+
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    margin-left: 38px;
+    margin-bottom: 38px;
 }
 
 .user-avatar {
@@ -356,3 +375,22 @@
     background: #F6F2E6;
     border-radius: 10px;
 }
+
+#appointmentPopup1 .Popup-Title {
+    font-family: Lato;
+    margin: 20px;
+}
+
+#appointmentPopup1 .Popup-SubTitle {
+    font-family: Lato;
+    margin: 20px;
+}
+
+#appointmentPopup1 .providerList {
+    width: 180px;
+    height: 30px;
+    margin: 0px 20px 20px 20px;
+    background: #F4ECD3;
+    border-radius: 5px;
+}
+

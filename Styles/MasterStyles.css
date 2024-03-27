@@ -3,6 +3,8 @@
     padding: 0px;
     font-family: Cinzel;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     background: rgb(208,189,206);
     background: linear-gradient(0deg, rgba(208,189,206,1) 26%, rgba(235,213,187,1) 58%, rgba(167,213,228,1) 92%);
     &::-webkit-scrollbar
@@ -14,11 +16,10 @@
 #home-nav-container {
     position: sticky;
     top: 0px;
-    justify-content: center;
     display: flex;
     background: #FFF3E1;
     justify-content: space-between;
-    height: 18vh;
+    height: 16vh;
     border-bottom: solid 1px #808080;
     width: 100%;
 }

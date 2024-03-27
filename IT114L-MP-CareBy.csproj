@@ -185,6 +185,7 @@
     <Content Include="Styles\HomeStyles.css" />
     <Content Include="Styles\MasterStyles.css" />
     <Content Include="Styles\ProfileFormStyles.css" />
+    <Content Include="Styles\TherapistStyles.css" />
     <Content Include="Styles\WelcomePageStyles.css" />
     <Content Include="TherapistPage.aspx" />
     <Content Include="ViewSwitcher.ascx" />
@@ -264,6 +265,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Code\" />
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>

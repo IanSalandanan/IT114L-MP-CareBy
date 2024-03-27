@@ -178,25 +178,27 @@
                     <!-- Appointment Popup -->
                     <div id="appointmentPopup" style="display: none;">
                         <h2 class="Popup-Title">Appointment Form</h2>
-                        <h3 class="Popup-SubTitle">Reasons for Visit (optional):</h3>
-                        <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="10" Columns="66" CssClass="txtDescription"></asp:TextBox><br />
+                        <h3 class="Popup-SubTitle">Reasons for Visit</h3>
+                        <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="10" Columns="66" CssClass="txtDescription" placeholder="Optional"></asp:TextBox><br />
                         <h3 class="dateLbl">Select a Preferred Schedule</h3>
                         <asp:TextBox ID="txtDate" runat="server" TextMode="Date" CssClass="txtDate"></asp:TextBox><br />
                         <div class="btnContainer">
-                            <button type="button" id="btnCancel" text="Cancel" onclick=" cancelAppointmentPopup()">Cancel</button>
-                            <button type="button" id="btnNext" text="Next" onclick="showAppointmentPopup1()">Next</button>
+                            <button type="button" class="secondary" text="Cancel" onclick=" cancelAppointmentPopup()">Cancel</button>
+                            <button type="button" class="primary" text="Next" onclick="showAppointmentPopup1()">Next</button>
                         </div>
                     </div>
 
                     <!-- Second Popup for Selecting Provider -->
                     <div id="appointmentPopup1" style="display: none;">
                         <h2 class="Popup-Title">Appointment Form</h2>
-                        <asp:Label ID="selectProvider" runat="server">Select Provider:</asp:Label>
-                        <asp:DropDownList ID="ddlProvidersPopup1" runat="server"></asp:DropDownList>
+                        <h3 class="Popup-SubTitle">Select Provider</h3> <br />
+                        <asp:DropDownList ID="ddlProvidersPopup1" runat="server" CssClass="providerList"></asp:DropDownList>
                         <asp:Label ID="lblSelectedProvider" runat="server" Style="display: block;"></asp:Label>
-                        <button type="button" id="btnCance1" runat="server" onclick=" cancelAppointmentPopup()">Cancel</button>
-                        <button type="button" id="btnPrevious" runat="server" onclick="prevAppointmentPopup()">Previous</button>
-                        <button type="button" id="btnNext1" runat="server" onclick="showAppointmentPopup2()">Next</button>
+                        <button type="button" class="tertiary" runat="server" onclick="prevAppointmentPopup()">Previous</button>
+                        <div class="btnContainer">
+                            <button type="button" class="secondary" runat="server" onclick=" cancelAppointmentPopup()">Cancel</button>
+                            <button type="button" class="primary" runat="server" onclick="showAppointmentPopup2()">Next</button>
+                        </div>
                     </div>
 
                     <!-- Third Popup for Displaying Time Blocks -->

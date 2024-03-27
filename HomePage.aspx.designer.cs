@@ -69,15 +69,6 @@ namespace IT114L_MP_CareBy
         protected global::System.Web.UI.WebControls.TextBox txtDate;
 
         /// <summary>
-        /// selectProvider control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label selectProvider;
-
-        /// <summary>
         /// ddlProvidersPopup1 control.
         /// </summary>
         /// <remarks>
@@ -94,33 +85,6 @@ namespace IT114L_MP_CareBy
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblSelectedProvider;
-
-        /// <summary>
-        /// btnCance1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlButton btnCance1;
-
-        /// <summary>
-        /// btnPrevious control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlButton btnPrevious;
-
-        /// <summary>
-        /// btnNext1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlButton btnNext1;
 
         /// <summary>
         /// lblTimeBlocks control.

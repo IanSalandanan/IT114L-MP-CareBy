@@ -26,7 +26,7 @@ namespace IT114L_MP_CareBy
 
         protected void contactClick(object sender, EventArgs e)
         {
-
+            ScriptManager.RegisterStartupScript(this, this.GetType(), "ScrollToLogin", "window.location.hash='#contact-page'", true);
         }
     }
 }

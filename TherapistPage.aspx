@@ -1,75 +1,48 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="TherapistPage.aspx.cs" Inherits="IT114L_MP_CareBy.TherapistPage" %>
 
 <asp:Content ID="Therapist" ContentPlaceHolderID="MainContent" runat="server">
-    <style>
 
-        #appointments-Container {
-            display:flex;
-            flex-direction: column;
-        }
+    <div id="main-container">
 
-        #pending-upcoming-container {
-            width: 100px;
-            display: flex;
-            background:yellow;
-        }
+        <div id="basic-info-container">
+            <h2 id="therapist-page-title">APPOINTMENT SCHEDULE</h2>
+            <h3 id="therapist-page-date"> Today:  <%= DateTime.Today %> </h3>
+        </div> 
 
-        #upcoming-btn {
-            width: 100%;
-            padding: 10px 10%;
-            align-items: center;
-            justify-content: center;
-            border-radius: 30px;
-            background: transparent;
-            border: 1px solid #999;
-            font-weight: 500;
-            cursor: pointer;
-        }
+        <div id="details-main-container">
 
-        #pending-btn {
-            width: 100%;
-            padding: 10px 10%;
-            align-items: center;
-            justify-content: center;
-            border-radius: 30px;
-            background: transparent;
-            border: 1px solid #999;
-            font-weight: 500;
-            cursor: pointer;
-        }
+            <div class="details-outer">
+                <div class="details-container">
+                    <div class="detail-block">
+                        <img class="schedIcon" src="patient.png" alt="page-img"/>
+                        <p class="schedLbl">Patient Name: <span class="displayPatient" runat="server"></span></p>
+                    </div>
 
-        #upcoming-btn:hover, #pending-btn:hover {
-            color: #FFF3E1;
-            background:#3C638A;
-        }
-
-        #schedule-box-container {
-            height: 50vh;
-            background:yellow;
-            border-radius: 10px;
-            background: transparent;
-            border: 1px solid #999;
-            font-weight: 500;
-            display:flex;
-        }
-
-    </style>
-    <div id="welcome-page">
-        <div id="appointments-Container">
-            <h2>Welcome, Dr. Juan Dela Cruz</h2>
-            <div id="pending-upcoming-container">
-                <div id="upcoming-btn-container">
-                    <button type="button" id="upcoming-btn" OnClick="">Upcoming</button>
-                </div>
-                <div id="pending-btn-container">
-                    <button type="button" id="pending-btn" OnClick="">Pending</button>
+                    <div class="detail-block">
+                        <img class="schedIcon" src="calendar.png" alt="page-img"/>
+                        <p class="schedLbl">Scheduled Date: <span class="displaySched" runat="server"></span></p>
+                        <button type="button" class="primary" runat="server">START APPOINTMENT</button>
+                    </div>
                 </div>
             </div>
-            <div id="schedule-box-container">
-                <p>dsadasdasd</p>
+
+            <div class="details-outer">
+                <div class="details-container">
+                    <div class="detail-block">
+                        <img class="schedIcon" src="patient.png" alt="page-img"/>
+                        <p class="schedLbl">Patient Name: <span class="displayPatient" runat="server"></span></p>
+                    </div>
+
+                    <div class="detail-block">
+                        <img class="schedIcon" src="calendar.png" alt="page-img"/>
+                        <p class="schedLbl">Scheduled Date: <span class="displaySched" runat="server"></span></p>
+                        <button type="button" class="primary" runat="server">START APPOINTMENT</button>
+                    </div>
+                </div>
             </div>
+
         </div>
+
     </div>
 
-    <span></span>
 </asp:Content>

@@ -1,0 +1,77 @@
+﻿#main-container {
+    background: #FFF3E1;
+    padding: 40px;
+    display: flex;
+    background-color: #FFF3E1;
+    flex-direction: column;
+}
+
+#basic-info-container {
+    display: flex;
+    background-color: #FFF3E1;
+    justify-content: space-between;
+    margin: 20px 40px 0px 40px;
+}
+
+#therapist-page-title, #therapist-page-date {
+    font-family: Lato;
+}
+
+.schedIcon {
+    width: 50px;
+    height: 50px;
+}
+
+.schedLbl {
+    font-family: Lato;
+    font-weight: bold;
+    margin: 12px 0px 0px 40px;
+    font-size: 20px;
+}
+
+#details-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #FFF3E1;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #3C638A;
+    margin: 20px 80px 80px 80px;
+}
+
+.details-outer {
+    margin: 10px;
+    background-color: mediumvioletred;
+    border-radius: 10px;
+}
+
+.details-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #FBD6C7;
+    border-radius: 10px;
+}
+
+.detail-block {
+    display: flex;
+    padding: 20px;
+    background-color: #FBD6C7;
+}
+
+.detail-block .primary {
+    position: absolute;
+    right: 220px;
+    width: 200px;
+    height: 50px;
+    font-family: Lato;
+    font-weight: bold;
+    background-color: #3C638A;
+    color: #FFF3E1;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+

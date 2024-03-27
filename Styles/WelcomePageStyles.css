@@ -7,7 +7,6 @@
 
 }
 
-
 #home-nav-container {
     z-index:1;
 }
@@ -23,56 +22,53 @@ h1 {
 }
 
 #welcome-title-container {
-    margin-left: 25px;
+    margin: 40px 0px 0px 25px;
     width: 689px;
 }
 
 #page-art {
-    width: 600px;
-    height: 600px;
+    width: 580px;
+    height: 580px;
     padding: 20PX;
 }
 
 #page-art2 {
     position: absolute;
     left: 0px;
-    margin-left: 80px;
-    margin-top: 80px;
+    margin-left: 140px;
+    margin-top: 200px;
     right: 2px;
     width: 350px;
     height: 350px;
 }
 
 #welcome-statement {
-    margin-top: 30px;
+    margin-top: 90px;
     font-size: 28px;
     text-align: center;
 }
 
-startBtn-container {
-    display:flex;
-}
-
 .startBtn {
-    margin-top: 50px;
-    margin-left: 60px;
+    position: absolute;
+    margin-left: 396px;
+    width: 200px;
     background-color: #3C638A;
     color: #FFF3E1;
     font-family: Cinzel;
-    border-radius: 30px;
+    border-radius: 25px;
     text-decoration: none;
+    text-align: center;
     font-size: 18px;
-    padding: 15px;
+    padding: 10px 15px 10px 15px;
 }
 
 #about-page-title {
-    padding-top: 140px;
+    padding: 140px 0px 140px 0px;
 }
 
 #about-page {
     display:flex;
     background-color: #FFF3E1;
-    height: 70vh;
     justify-content:center;
     text-align:center;
     padding: 40px;
@@ -96,96 +92,54 @@ startBtn-container {
     margin: 20px 50px;
 }
 
-#login-signup-page {
-    padding: 140px 40px 40px 40px;
+#contact-page {
     display: flex;
+    flex-direction: column;
+    padding: 40px;
     background-color: #FFF3E1;
-    height: 70vh;
 }
 
-#login-container {
-    padding: 50px 10%;
-    width: 300px;
+#contact-page h1 {
     text-align: center;
-    margin-left:30%;
+    margin: 180px 0px 0px 0px;
 }
 
-.input-field {
-    width: 100%;
-    background: transparent;
-    border: 1px solid #000;
-    outline: 0;
-    padding: 15px 10px;
-    border-radius: 4px;
-    margin: 10px 0;
-}
-
-#login-btn {
-    width: 100%;
-    padding: 10px 0;
+#contact-main-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px 0;
-    border-radius: 30px;
-    background: transparent;
-    border: 1px solid #999;
-    font-weight: 500;
-    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #FFF3E1;
+    margin: 0px 40px 40px 40px;
+    padding: 10px 40px 40px 40px;
+    place-items: center;
 }
 
-#login-btnx {
-    width: 100%;
-    padding: 10px 0;
+#contact-details-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px 0;
-    border-radius: 30px;
-    background: transparent;
-    border: 1px solid #999;
-    font-weight: 500;
-    cursor: pointer;
+    flex-direction: row;
+    width: 1113px;
+    background-color: #FFF3E1;
+    margin: 10px 20px 10px 20px;
 }
 
-#signup-btn {
-    width: 100%;
-    padding: 10px 0;
+.contact-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px 0;
-    border-radius: 30px;
-    background: transparent;
-    border: 1px solid #999;
-    font-weight: 500;
-    cursor: pointer;
 }
 
-#register-container {
-    padding: 50px 10%;
-    width: 300px;
-    text-align: center;
-    margin-left:31%;
-    margin-bottom: 20%;
-
+#contact-details-container .contact-container {
+    background-color: #FFF3E1;
+    margin: 20px;
 }
 
-#regis-btnx {
-    width: 100%;
-    padding: 10px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px 0;
-    border-radius: 30px;
-    background: transparent;
-    border: 1px solid #999;
-    font-weight: 500;
-    cursor: pointer;
+.contact-container .contact-img {
+    width: 60px;
+    margin: 40px;
 }
 
-#hatdog:hover, #hatdogx:hover {
-    text-decoration: underline;
-    cursor: pointer;
+
+.contact-container .contact-statement {
+    font-family: lato;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 55px 20px 0px 20px;
 }

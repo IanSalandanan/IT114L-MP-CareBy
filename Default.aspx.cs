@@ -16,7 +16,7 @@ namespace IT114L_MP_CareBy
 
         protected void startbutton_Click(object sender, EventArgs e)
         {
-            ScriptManager.RegisterStartupScript(this, this.GetType(), "ScrollToLogin", "window.location.hash='#login-signup-page'", true);
+            HttpContext.Current.Response.Redirect("~/LogIn.aspx");
         }
     }
 }

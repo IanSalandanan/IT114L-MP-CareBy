@@ -1,19 +1,50 @@
 ﻿#form-container {
     display: flex;
     justify-content: space-between;
-    background: #FFF3E1;
+    background-color: #FFF3E1;
+    padding: 40px;
 }
 
 #fillUp-container {
-    padding: 20px;
-    margin-left: 150px;
-    margin-bottom: 150px;
-    margin-top: 100px;
+    background-color: #FFF3E1;
+    margin: 60px 0px 20px 240px;
+    place-items: center;
+}
+
+#fillUp-container h3 {
+    font-family: Lato;
+}
+
+.Label1 {
+    font-family: Lato;
+    margin: 0px 270px 4px 0px;
+}
+
+.Label2 {
+    font-family: Lato;
+    margin: 0px 238px 4px 0px;
+}
+
+.Label3 {
+    font-family: Lato;
+    margin: 0px 254px 4px 0px;
+}
+
+.Label4 {
+    font-family: Lato;
+    margin: 0px 280px 4px 0px;
+}
+
+.TextBoxes {
+    width: 300px;
+    height: 32px;
+    border-radius: 4px;
 }
 
 .form-column {
     display:flex;
     flex-direction: column;
+    background-color: yellow;
 }
 
 .txtbox {
@@ -32,12 +63,55 @@
 
 #dp-container {
     display: flex;
-    margin-right: 150px;
+    margin-right: 240px;
     margin-bottom: 150px;
     margin-top: 100px;
 }
 
+#dp-img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+.homeBtn, .profBtn, .backBtn {
+    position: absolute;
+    top: -1px;
+    left: 60px;
+    margin: 180px 0px 40px 0px;
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+    color: #3C638A;
+    cursor: pointer;
+}
+
+.editBtn {
+    margin: 0px 0px 0px 220px;
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+    color: #3C638A;
+    cursor: pointer;
+}
+
+.saveBtn {
+    margin: 0px 0px 0px 270px;
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+    color: #3C638A;
+    cursor: pointer;
+}
 
 
-
+.homeBtn:hover, .editBtn:hover, .profBtn:hover, .saveBtn:hover, .backBtn:hover {
+    text-decoration: underline;
+}
 

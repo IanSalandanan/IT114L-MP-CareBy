@@ -11,10 +11,30 @@
     left: -62px;
     top: -20px;
     margin-left: 35px;
-
 }
 
 .profileBtn {
+    position: absolute;
+    right: 0px;
+    margin-right: 230px;
+    font-family: Lato;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 12px 30px 0px 30px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    border-radius: 4px;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: #3C638A;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #3C638A;
+    color: #FFF3E1;
+}
+
+.btnLogout {
     position: absolute;
     right: 0px;
     margin-right: 80px;
@@ -23,13 +43,12 @@
     font-size: 22px;
     padding: 12px 30px 0px 30px;
     margin-top: 20px;
-
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
     font-weight: bold;
-    border-width: 2px;
+    border-width: 1.5px;
     border-style: solid;
     border-color: #3C638A;
     background-color: #FFF3E1;
@@ -56,22 +75,33 @@
     border-width: 2px;
     align-items: center;
     width: 600px;
-    height: 45vh;
+    height: 39vh;
     border-radius: 15px;
     border-left: 6px solid #1d1d1d;
     border-bottom: 6px solid #1d1d1d;
     font-family: lato;
 }
 
-.appmt-details-cancel-container {
+.appmt_details_container {
     display: flex;
-    flex-direction: row;
-    width: 300px;
+    flex-direction: column;
+    background-color: #FFE9F6;
+    margin: 60px 0px 0px 0px;
+    width: 590px;
 }
 
-.appmt_details_container {
-    margin-top: 60px;
-    margin-right: 170px;
+.detail_container {
+    display: flex;
+    background-color: #FFE9F6;
+    margin: 10px 10px 10px 10px;
+}
+
+#doc, #date{
+    margin-left: 30px;
+}
+
+#time {
+    margin-left: 20px;
 }
 
 .setBtn {
@@ -92,15 +122,19 @@
 
 #page-img {
     position: absolute;
-    height: 540px;
     right: 0px;
-    margin-right: 190px;
+    top: 0;
+    margin-right: 170px;
+    margin-top: 300px;
 }
 
 .cancelBtn {
+    position: absolute;
+    top: 340px;
+    left: 727px;
     width: 80px;
     height: 40px;
-    border-width: 2px;
+    border-width: 1.5px;
     border-style: solid;
     border-color: #3C638A;
     background-color: #FFF3E1;
@@ -114,7 +148,10 @@
 }
 
 .startBtn2 {
-    width: 550px;
+    position: absolute;
+    top: 565px;
+    left: 228px;
+    width: 578px;
     height: 60px;
     background-color: #3C638A;
     color: #FFF3E1;
@@ -187,20 +224,6 @@
 .details_cancel_container {
     display: flex;
     flex-direction: row;
-}
-
-.detail_container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 10px;
-    width: 290px;
-    margin-left: 20px;
-}
-
-.details_cancel_container {
-    display: flex;
-    padding: 25px;
 }
 
 .provider-name-title {
@@ -362,35 +385,5 @@
 
 .user-avatar {
     margin: 10px 20px 10px 20px;
-}
-
-/* 2ND SET APPOINTMENT POPUP PANEL */
-
-#appointmentPopup1 {
-    display: flex;
-    flex-direction: column;
-    z-index: 1;
-    width: 550px;
-    height: 438px;
-    background: #F6F2E6;
-    border-radius: 10px;
-}
-
-#appointmentPopup1 .Popup-Title {
-    font-family: Lato;
-    margin: 20px;
-}
-
-#appointmentPopup1 .Popup-SubTitle {
-    font-family: Lato;
-    margin: 20px;
-}
-
-#appointmentPopup1 .providerList {
-    width: 180px;
-    height: 30px;
-    margin: 0px 20px 20px 20px;
-    background: #F4ECD3;
-    border-radius: 5px;
 }
 

@@ -136,10 +136,85 @@ h1 {
     margin: 40px;
 }
 
-
 .contact-container .contact-statement {
     font-family: lato;
     font-size: 20px;
     font-weight: 600;
     margin: 55px 20px 0px 20px;
+}
+
+/*LOGIN AND SIGNUP*/
+
+#login-page, #signup-page {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF3E1;
+    place-items: center;
+}
+
+#login-container, #register-container {
+    padding: 20px;
+    width: 300px;
+    margin: 40px 0px 180px 0px;
+    background-color: #FFF3E1;
+    text-align: center;
+    font-family: Lato;
+    font-weight: bold;
+}
+
+.input-field {
+    width: 270px;
+    background: transparent;
+    border: 1px solid #000;
+    outline: 0;
+    padding: 10px 10px;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+.login-btn {
+    width: 294px;
+    margin: 8px 0;
+    padding: 12px 20px 12px 20px;
+    border-radius: 20px;
+    background: transparent;
+    border: 1px solid #999;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.signup-btn {
+    width: 294px;
+    margin: 8px 0;
+    padding: 12px 20px 12px 20px;
+    border-radius: 20px;
+    background: transparent;
+    border: 1px solid #999;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.login-btn:hover,
+.signup-btn:hover {
+    background: #3C638A;
+    color: #FFF3E1;
+}
+
+.donthave, .have {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF3E1;
+    margin: 8px 0;
+    border-style: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.donthave:hover,
+.have:hover {
+    text-decoration: underline;
 }

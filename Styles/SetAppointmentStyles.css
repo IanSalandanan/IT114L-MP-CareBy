@@ -1,0 +1,120 @@
+﻿.appointment-main-container {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    background-color: #FFF3E1;
+    padding: 40px;
+}
+
+#outer-container {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    background-color: #FFF3E1;
+    border: 1.5px solid #3C638A;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 10px;
+}
+
+#container1 {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    background-color: #FFF3E1;
+}
+
+#container2 {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    background-color: #FFF3E1;
+}
+
+#container3 {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    background-color: #FFF3E1;
+}
+
+#container1 .Popup-Title {
+    font-family: Lato;
+    margin: 20px;
+}
+
+#container1 .Popup-SubTitle {
+    font-family: Lato;
+    margin: 20px 395px 20px 20px;
+}
+
+#container1 .txtDescription {
+    padding: 6px;
+    resize: none;
+    background-color: #F4ECD3;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-style: none;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 0px rgba(0, 0, 0, 0.2);
+    &::-webkit-scrollbar
+                        {
+                            display: none;
+                        }
+
+}
+
+.dateLbl {
+    margin: 20px 300px 20px 20px;
+    font-family: Lato;
+}
+
+.txtDate {
+    width: 110px;
+    padding: 3px;
+    height: 20px;
+    margin: 8px 410px 20px 20px;
+    background-color: #FFF3E1;
+    border-radius: 6px;
+    border-width: 1px;
+}
+
+#container2 .Popup-SubTitle {
+    font-family: Lato;
+    margin: 20px 395px 20px 20px;
+}
+
+#container2 .providerList {
+    width: 180px;
+    height: 30px;
+    margin: 8px 350px 20px 20px;
+    background: #FFF3E1;
+    border-radius: 5px;
+}
+
+#container3 .Popup-SubTitle {
+    font-family: Lato;
+    margin: 20px 340px 20px 20px;
+}
+
+#container3 .providerList {
+    width: 180px;
+    height: 30px;
+    margin: 8px 340px 20px 20px;
+    background: #FFF3E1;
+    border-radius: 5px;
+}
+
+.subBut {
+    width: 504px;
+    height: 60px;
+    font-family: Lato;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #3C638A;
+    color: #FFF3E1;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 20px;
+}

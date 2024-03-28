@@ -10,7 +10,15 @@
     display: flex;
     background-color: #FFF3E1;
     justify-content: space-between;
-    margin: 20px 40px 0px 40px;
+    margin: 110px 80px 0px 80px;
+}
+
+#top-img {
+    position: absolute;
+    transform: rotate(-5deg);
+    left: -62px;
+    top: -20px;
+    margin-left: 35px;
 }
 
 #therapist-page-title, #therapist-page-date {
@@ -36,7 +44,7 @@
     background: #FFF3E1;
     padding: 20px;
     border-radius: 10px;
-    border: 2px solid #3C638A;
+    border: 1.5px solid #3C638A;
     margin: 20px 80px 80px 80px;
 }
 
@@ -72,6 +80,12 @@
     border: none;
     border-radius: 4px;
     cursor: pointer;
+}
+
+#btns-container {
+    position:absolute;
+    top: 172px;
+    right: 0px;
 }
 
 

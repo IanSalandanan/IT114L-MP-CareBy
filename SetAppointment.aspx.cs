@@ -25,7 +25,7 @@ namespace IT114L_MP_CareBy
         {
             string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\Christian Kerby\source\repos\IT114L-MP-CareBy\App_Data\Careby.mdf"";Integrated Security=True";
 
-            string query = "SELECT therapistName FROM Appointments";
+            string query = "SELECT DISTINCT therapistName FROM Appointments";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
@@ -35,15 +35,47 @@ namespace IT114L_MP_CareBy
 
                 while (reader.Read())
                 {
-                    ListItem item = new ListItem();
-                    item.Value = reader["therapistName"].ToString();
-                    item.Text = reader["therapistName"].ToString();
-                    ddlProvidersPopup1.Items.Add(item);
+
+                    string therapistName = reader["therapistName"].ToString();
+
+
+                    if (!TherapistExistsInAppointments(therapistName))
+                    {
+
+                        ListItem item = new ListItem(therapistName, therapistName);
+                        ddlProvidersPopup1.Items.Add(item);
+                    }
                 }
 
                 reader.Close();
                 connection.Close();
             }
+        }
+
+        private bool TherapistExistsInAppointments(string therapistName)
+        {
+            bool exists = false;
+
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\Christian Kerby\source\repos\IT114L-MP-CareBy\App_Data\Careby.mdf"";Integrated Security=True";
+
+            string query = "SELECT COUNT(*) FROM appointment_details WHERE chosen_therapistName = @TherapistName";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                SqlCommand command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@TherapistName", therapistName);
+                connection.Open();
+
+
+                int count = (int)command.ExecuteScalar();
+
+
+                exists = count > 0;
+
+                connection.Close();
+            }
+
+            return exists;
         }
 
         protected void btnSubmitAppointment_Click(object sender, EventArgs e)

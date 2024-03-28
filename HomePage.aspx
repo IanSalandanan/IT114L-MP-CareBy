@@ -75,12 +75,12 @@
                         <img src="user.png" class="user-avatar" />
 
                         <div class="provider-details" runat="server">
-                            <p id="provider_name_title1" class="provider-name-title" runat="server"> Benet Versoza, MD </p>
+                            <p id="provider_name_title1" class="provider-name-title" runat="server"> Ken De Mertin, MD </p>
                             <p id="provider_role1" class="provider-role" runat="server">PSYCHOMETRICIAN</p>
                         </div>
 
-                        <asp:Button class="view_profile_btn" runat="server" Text="VIEW PROFILE" CssClass="view_profile_btn"/>  
-                        
+                        <asp:Button ID="view_profile_btn1" class="view_profile_btn" runat="server" Text="VIEW PROFILE" CssClass="view_profile_btn" OnClick="view_profile_btn_click"/>  
+        
                     </div>
 
                     <div class="provider-prof" runat="server">
@@ -88,11 +88,11 @@
                         <img src="user.png" class="user-avatar" />
 
                         <div class="provider-details" runat="server">
-                            <p id="provider_name_title2" class="provider-name-title" runat="server"> Annie Smith, MD </p>
+                            <p id="provider_name_title2" class="provider-name-title" runat="server"> Christian Salandanan, MD </p>
                             <p id="provider_role2" class="provider-role" runat="server">PSYCHOMETRICIAN</p>
                         </div>
 
-                        <asp:Button class="view_profile_btn" runat="server" Text="VIEW PROFILE" CssClass="view_profile_btn"/>  
+                        <asp:Button ID="view_profile_btn2" class="view_profile_btn" runat="server" Text="VIEW PROFILE" CssClass="view_profile_btn" OnClick="view_profile_btn_click"/>  
 
                     </div>
                 </div>
@@ -101,19 +101,19 @@
                     <div class="provider-prof">
                         <img src="user.png" class="user-avatar" />
                         <div class="provider-details">
-                            <p id="provider_name_title3" class="provider-name-title" runat="server"> Kyle De Leno, MD </p>
+                            <p id="provider_name_title3" class="provider-name-title" runat="server"> Vincent Nuñez, MD </p>
                             <p id="provider_role3" class="provider-role" runat="server">PSYCHOMETRICIAN</p>
                         </div>
-                        <asp:Button class="view_profile_btn" runat="server" Text="VIEW PROFILE" CssClass="view_profile_btn"/>  
+                        <asp:Button ID="view_profile_btn3" class="view_profile_btn" runat="server" Text="VIEW PROFILE" CssClass="view_profile_btn" OnClick="view_profile_btn_click"/>  
                     </div>
 
                     <div class="provider-prof">
                         <img src="user.png" class="user-avatar" />
                         <div class="provider-details">
-                            <p id="provider_name_title4" class="provider-name-title" runat="server"> Casey Hollister, MD </p>
+                            <p id="provider_name_title4" class="provider-name-title" runat="server"> Carlie Endaya, MD </p>
                             <p id="provider_role4" class="provider-role" runat="server">PSYCHOMETRICIAN</p>
                         </div>
-                        <asp:Button class="view_profile_btn" runat="server" Text="VIEW PROFILE" CssClass="view_profile_btn"/>  
+                        <asp:Button ID="view_profile_btn4" class="view_profile_btn" runat="server" Text="VIEW PROFILE" CssClass="view_profile_btn" OnClick="view_profile_btn_click"/>  
                     </div>
                 </div>
 
@@ -121,23 +121,53 @@
                     <div class="provider-prof">
                         <img src="user.png" class="user-avatar" />
                         <div class="provider-details">
-                            <p id="provider_name_title5" class="provider-name-title" runat="server"> Olivia Rodriguez, MD </p>
+                            <p id="provider_name_title5" class="provider-name-title" runat="server"> Mico Escosura, MD </p>
                             <p id="provider_role5" class="provider-role" runat="server">PSYCHOMETRICIAN</p>
                         </div>
-                        <asp:Button class="view_profile_btn" runat="server" Text="VIEW PROFILE" CssClass="view_profile_btn"/>  
+                        <asp:Button ID="view_profile_btn5" class="view_profile_btn" runat="server" Text="VIEW PROFILE" CssClass="view_profile_btn" OnClick="view_profile_btn_click"/>  
                     </div>
 
                     <div class="provider-prof">
                         <img src="user.png" class="user-avatar" />
                         <div class="provider-details">
-                            <p id="provider_name_title6" class="provider-name-title" runat="server"> Edward Go, MD </p>
+                            <p id="provider_name_title6" class="provider-name-title" runat="server"> Phaula Briol, MD </p>
                             <p id="provider_role6" class="provider-role" runat="server">PSYCHOMETRICIAN</p>
                         </div>
-                        <asp:Button class="view_profile_btn" runat="server" Text="VIEW PROFILE" CssClass="view_profile_btn"/>  
+                        <asp:Button ID="view_profile_btn6" class="view_profile_btn" runat="server" Text="VIEW PROFILE" CssClass="view_profile_btn" OnClick="view_profile_btn_click" />  
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+
+        <!--    SEE PROFILE MODAL START      -->
+        <asp:Panel ID="pnlmodal" CssClass="modal" runat="server">
+
+            <div id="modal-content" class="modal-content">
+ 
+                <asp:Button ID="btn_close" runat="server" cssClass="btn-close" Text="Close" OnClick="btn_close_click" />
+
+                <div class="modal-provider-prof">
+                     <img src="user.png" class="user-avatar" />
+                     <div class="provider-details">
+                         <p id="modal_provider_name" class="provider-name-title" runat="server" > Modal Prodier's Name </p>
+                         <p id="modal_provider_role" class="provider-role" runat="server" >Modal Provider's Role </p>
+                     </div>
+
+                 </div>
+
+                <div class="modal-info">
+                      <div class="provider-info">
+                          <h3 class="provider-info-title"> Biography </h3>
+                          <p class="provider-info-desc"> Friendly Human Being </p>
+                      </div>
+
+                    <div class="provider-info">
+                        <h3 class="provider-info-title"> Specialization </h3>
+                        <p class="provider-info-desc"> Psychometrician </p>
+                    </div>
+                </div>
+            </div>
+        </asp:Panel>
+        <!--    SEE PROFILE MODAL END      -->
         
 </asp:Content>

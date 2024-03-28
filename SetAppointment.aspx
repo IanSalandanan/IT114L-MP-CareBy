@@ -58,6 +58,7 @@
                               <asp:Button ID="submitAppointment" runat="server" Text="Submit" onclick="btnSubmitAppointment_Click" CssClass="subBut"/>
 
                     </div>
+                    <asp:Button ID="backBtn" runat="server" Text="Back to Homepage" OnClick="backBtn_Click" CssClass="homeBtn"/>
 
                 </div>
 

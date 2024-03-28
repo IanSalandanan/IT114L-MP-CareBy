@@ -267,73 +267,114 @@
     font-weight: bold;
 }
 
-/* SET APPOINTMENT POPUP PANELS */
+/* SEE PROFILE MODAL START */
 
-#appointmentPopup, #appointmentPopup1, #appointmentPopup2 {
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+.modal-provider-prof .provider-details {
+    width: 180px;
+    background-color: #FFF3E1;
+    margin: 0 20px 0 20px;
 }
 
-#appointmentPopup {
+.modal-content {
     display: flex;
     flex-direction: column;
-    z-index: 1;
-    width: 550px;
-    height: 438px;
-    background: #F6F2E6;
-    border-radius: 10px;
-}
-
-#appointmentPopup .Popup-Title {
-    font-family: Lato;
-    margin: 20px;
-}
-
-#appointmentPopup .Popup-SubTitle {
-    font-family: Lato;
-    margin: 20px;
-}
-
-#appointmentPopup .txtDescription {
-    padding: 6px;
-    resize: none;
-    background-color: #F4ECD3;
-    margin-left: 20px;
-    margin-right: 20px;
-    border-style: none;
-    border-radius: 10px;
-    box-shadow: inset 2px 2px 0px rgba(0, 0, 0, 0.2);
-    &::-webkit-scrollbar
-            {
-            display: none;
-            }
-}
-
-.dateLbl {
-    margin: 20px;
-    font-family: Lato;
-}
-
-.txtDate {
-    width: 110px;
-    padding: 3px;
-    height: 20px;
-    margin: 2px 20px 20px 20px;
-    background-color: #F4ECD3;
-    border-radius: 6px;
-    border-width: 1px;
-}
-
-.btnContainer {
+    place-items: center;
     position: absolute;
-    right: 0px;
-    bottom: 0px;
-    margin-right: 38px;
-    margin-bottom: 38px;
+    width: 500px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFF3E1;
+    border: 2px solid #3C638A;
 }
+
+.modal-provider-prof {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 25px;
+    align-items: center;
+    background-color: #FFF3E1;
+}
+
+.modal-info {
+    background-color: #FFF3E1;
+}
+
+.provider-info {
+    background-color: #FFF3E1;
+}
+
+.provider-info p {
+    font-family: lato;
+    font-size: 18px;
+    background-color: #FFF3E1;
+}
+
+.provider-info h3 {
+    font-weight: bold;
+    font-family: lato;
+}
+
+.modal-close-btn,
+.modal-appmt-details-close-btn {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.btn-close {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+    color: #3C638A;
+    cursor: pointer;
+}
+
+.btn-close:hover {
+    text-decoration: underline;
+}
+
+.modal {
+    background-color: rgba(0,0,0, 0.5);
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+}
+
+.provider-name-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.provider-role,
+.provider-info-desc {
+    font-size: 13px;
+    margin-top: -20px;
+}
+
+.provider-info-title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* SEE PROFILE MODAL END */
+
+
 
 .secondary {
     width: 72px;

@@ -16,6 +16,7 @@ namespace IT114L_MP_CareBy
         private string usernameOrEmail;
         protected void Page_Load(object sender, EventArgs e)
         {
+            pnlmodal.Visible = false;
 
             string usernameOrEmail = Session["UsernameOrEmail"].ToString();
 
@@ -141,6 +142,34 @@ namespace IT114L_MP_CareBy
         {
             Session.Clear();
             Response.Redirect("~/Default.aspx");
+        }
+
+        protected void btn_close_click(object sender, EventArgs e)
+        {
+            pnlmodal.Visible = false;
+        }
+
+        protected void view_profile_btn_click(object sender, EventArgs e)
+        {
+            string btnID = ((Button)sender).ID;
+            int index = int.Parse(btnID.Substring(btnID.Length - 1));
+
+            string pNameID = "provider_name_title" + index;
+            string pRoleID = "provider_role" + index;
+
+            HtmlGenericControl CtrlName = providers_container.FindControl(pNameID) as HtmlGenericControl;
+            HtmlGenericControl CtrlRole = providers_container.FindControl(pRoleID) as HtmlGenericControl;
+
+            if ((CtrlName != null && CtrlName.TagName == "p") && (CtrlRole != null && CtrlRole.TagName == "p"))
+            {
+                string PNameText = CtrlName.InnerText;
+                modal_provider_name.InnerHtml = PNameText;
+
+                string PRoleNameText = CtrlRole.InnerText;
+                modal_provider_role.InnerHtml = PRoleNameText;
+            }
+
+            pnlmodal.Visible = true;
         }
     }
 }

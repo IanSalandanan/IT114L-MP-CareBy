@@ -114,6 +114,15 @@ namespace IT114L_MP_CareBy
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl provider_role1;
 
         /// <summary>
+        /// view_profile_btn1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button view_profile_btn1;
+
+        /// <summary>
         /// provider_name_title2 control.
         /// </summary>
         /// <remarks>
@@ -130,6 +139,15 @@ namespace IT114L_MP_CareBy
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl provider_role2;
+
+        /// <summary>
+        /// view_profile_btn2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button view_profile_btn2;
 
         /// <summary>
         /// provider_name_title3 control.
@@ -150,6 +168,15 @@ namespace IT114L_MP_CareBy
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl provider_role3;
 
         /// <summary>
+        /// view_profile_btn3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button view_profile_btn3;
+
+        /// <summary>
         /// provider_name_title4 control.
         /// </summary>
         /// <remarks>
@@ -166,6 +193,15 @@ namespace IT114L_MP_CareBy
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl provider_role4;
+
+        /// <summary>
+        /// view_profile_btn4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button view_profile_btn4;
 
         /// <summary>
         /// provider_name_title5 control.
@@ -186,6 +222,15 @@ namespace IT114L_MP_CareBy
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl provider_role5;
 
         /// <summary>
+        /// view_profile_btn5 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button view_profile_btn5;
+
+        /// <summary>
         /// provider_name_title6 control.
         /// </summary>
         /// <remarks>
@@ -202,5 +247,50 @@ namespace IT114L_MP_CareBy
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl provider_role6;
+
+        /// <summary>
+        /// view_profile_btn6 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button view_profile_btn6;
+
+        /// <summary>
+        /// pnlmodal control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel pnlmodal;
+
+        /// <summary>
+        /// btn_close control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btn_close;
+
+        /// <summary>
+        /// modal_provider_name control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl modal_provider_name;
+
+        /// <summary>
+        /// modal_provider_role control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl modal_provider_role;
     }
 }

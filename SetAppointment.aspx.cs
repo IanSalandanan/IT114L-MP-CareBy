@@ -107,5 +107,9 @@ namespace IT114L_MP_CareBy
 
         }
 
+        protected void backBtn_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("HomePage.aspx");
+        }
     }
 }

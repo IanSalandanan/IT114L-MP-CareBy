@@ -4,6 +4,6 @@
 
     <asp:Button ID="backBtn" runat="server" Text="Back to Homepage" OnClick="endBtn_Click" CssClass="homeBtn"/>
     <div id="vid-container">
-        <iframe id="vid" src="https://zoom.us/signin#/login"></iframe>
+        <img class="call-img" src="call.png" alt="page-img"/>
     </div>
 </asp:Content>

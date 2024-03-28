@@ -1,9 +1,6 @@
-﻿#vid {
-    outline: none;
-    border-radius: 15px;
-    overflow: hidden;
+﻿.call-img {
     width: 1600px;
-    height: 600px;
+    height: 800px;
 }
 
 #vid-container {
@@ -11,7 +8,7 @@
     flex-direction: column;
     place-items: center;
     background-color: #FFF3E1;
-    padding: 100px 60px 0px 60px;
+    padding: 100px 60px 60px 60px;
 }
 
 .backBtn {

@@ -33,6 +33,33 @@ namespace IT114L_MP_CareBy
         protected global::System.Web.UI.UpdatePanel TherapistUpdatePanel;
 
         /// <summary>
+        /// displayPatient control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl displayPatient;
+
+        /// <summary>
+        /// displayDate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl displayDate;
+
+        /// <summary>
+        /// displayTime control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl displayTime;
+
+        /// <summary>
         /// profileBtn control.
         /// </summary>
         /// <remarks>

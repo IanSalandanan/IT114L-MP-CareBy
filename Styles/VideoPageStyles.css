@@ -1,0 +1,33 @@
+﻿#vid {
+    outline: none;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 1600px;
+    height: 600px;
+}
+
+#vid-container {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    background-color: #FFF3E1;
+    padding: 100px 60px 0px 60px;
+}
+
+.backBtn {
+    position: absolute;
+    top: -1px;
+    left: 60px;
+    margin: 180px 0px 40px 0px;
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+    color: #3C638A;
+    cursor: pointer;
+}
+
+.backBtn:hover {
+    text-decoration: underline;
+}

@@ -194,8 +194,10 @@
     <Content Include="Styles\ProfileFormStyles.css" />
     <Content Include="Styles\SetAppointmentStyles.css" />
     <Content Include="Styles\TherapistStyles.css" />
+    <Content Include="Styles\VideoPageStyles.css" />
     <Content Include="Styles\WelcomePageStyles.css" />
     <Content Include="TherapistPage.aspx" />
+    <Content Include="VideoPage.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -287,6 +289,13 @@
     </Compile>
     <Compile Include="TherapistPage.aspx.designer.cs">
       <DependentUpon>TherapistPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VideoPage.aspx.cs">
+      <DependentUpon>VideoPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VideoPage.aspx.designer.cs">
+      <DependentUpon>VideoPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>

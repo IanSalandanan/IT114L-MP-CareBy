@@ -119,7 +119,7 @@ namespace IT114L_MP_CareBy
                 if (hasAppointment)
                 {
                     // Redirect to the AppointmentVideo.aspx page
-                    Response.Redirect("AppointmentVideo.aspx");
+                    Response.Redirect("VideoPage.aspx");
                 }
                 else
                 {

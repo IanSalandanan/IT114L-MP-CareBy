@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="/Styles/ProfileFormStyles.css"/>
     <link rel="stylesheet" href="/Styles/TherapistStyles.css"/>
     <link rel="stylesheet" href="/Styles/SetAppointmentStyles.css"/>
+    <link rel="stylesheet" href="/Styles/VideoPageStyles.css"/>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">

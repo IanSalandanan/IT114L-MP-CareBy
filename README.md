@@ -9,7 +9,7 @@ CREATE TABLE [dbo].[Users] (
     [Password]  VARCHAR (MAX) NULL,
     [FirstName] VARCHAR (MAX) NULL,
     [LastName]  VARCHAR (MAX) NULL,
-    [age]       INT           NULL,
+    [age]      NVARCHAR (MAX) NULL,
     [gender]    VARCHAR (10)  NULL,
     [UserType]  VARCHAR (MAX) DEFAULT ('User') NULL,
     PRIMARY KEY CLUSTERED ([UserID] ASC)
